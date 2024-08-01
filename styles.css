@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(143, 72, 236);
+}
+
+.custom-bg{
+    background-color: #eb5b5b;
+}
+
+p {
+    margin: 10px;
+    /* Margem de 10 pixels para todos os lados */
+}
+
+ul {
+    list-style: none;
+    /* Remove as marcas de lista padrão */
+}
+
+li {
+    color: rgb(0, 0, 0);
+    /* Define a cor do texto dos itens da lista como azul */
+}
+
+h1 {
+    text-align: center;
+    /* Centraliza o texto */
+    background-color: #9b3232;
+    /* Define a cor de fundo */
+    color: #cf4444;
+    /* Define a cor do texto */
+    padding: 10px;
+    /* Adiciona espaço interno para a borda */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h {
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #fcdfe1;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background 0.4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(207, 144, 86);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(252, 158, 52);
+}
+ img{float left:"https://i.ytimg.com/vi/9y_01NqK8og/maxresdefault.jpg";
+
+ }
+ footer {
+    position: absolute;
+    background-color: #f0f0f0; /* Cor de fundo do rodapé */
+    width: 100%;
+    height: 48px; /* Altura do rodapé */
+    left: 0;
+    bottom: 0;
+}
+div{
+    background-color: #9b3232;
+}
+
